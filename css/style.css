@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(214, 206, 159);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 100px;
+}
+.container-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+ .title{
+    text-transform: uppercase;
+    font-size: 29px;
+}
+ .content h2{
+    margin-top: 25px;
+    color: rgb(114, 114, 122);
+    
+}
+ .content p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height:1.5;
+}
+.button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button a{
+    background-color: rgb(176, 136, 239);
+    padding: 5px 20px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.button a:hover{
+    background-color: rgb(161, 76, 241);
+    color: rgb(195, 173, 217);
+    border-radius: 25px;
+     box-shadow: 5px 5px 15px rgba(134, 51, 162, 0.964); 
+}
+.social{
+    margin: 40px 20px;
+}
+.social i{
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.social i:hover{
+    color: rgb(132, 67, 170);
+}
+@media screen and (max-width:768px)
+{
+    .container{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 50px;
+    }
+    .container-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.image-section{
+    float: none;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.title{
+    text-align: center;
+}
+.button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.social{
+    margin: 40px 20px;
+    text-align: center;
+
+}
+}
